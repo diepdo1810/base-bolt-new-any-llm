@@ -1,0 +1,61 @@
+/* Markdown.module.scss */
+
+/* Styles for Markdown rendering */
+.markdown {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--bolt-elements-textPrimary);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown p {
+  margin-bottom: 1em;
+}
+
+.markdown a {
+  color: var(--bolt-elements-link);
+  text-decoration: underline;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.markdown blockquote {
+  margin: 0;
+  padding-left: 1em;
+  border-left: 4px solid var(--bolt-elements-borderColor);
+  color: var(--bolt-elements-textSecondary);
+}
+
+.markdown code {
+  font-family: 'Source Code Pro', monospace;
+  background-color: var(--bolt-elements-background-depth-2);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+.markdown pre {
+  background-color: var(--bolt-elements-background-depth-2);
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.markdown pre code {
+  padding: 0;
+  background-color: transparent;
+}
